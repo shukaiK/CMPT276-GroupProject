@@ -129,6 +129,7 @@ body {
     line-height: 20.3px;
     display: flex;
     align-items: center;
+    color: yellow;
   }
   .link-button1 {
     height: 32px;
@@ -512,4 +513,3 @@ body {
       line-height: 28px;
     }
   }
-  
