@@ -19,8 +19,8 @@ public class Student {
     private String experience;
     private String address;
 
-    @ElementCollection // This annotation is used to store a list of elements.
-    @CollectionTable(name = "students", joinColumns = @JoinColumn(name = "sid"))
+    @ElementCollection
+    @CollectionTable(name = "student_availability", joinColumns = @JoinColumn(name = "sid"))
     @Column(name = "availability")
     private List<String> availability;
 
